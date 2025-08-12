@@ -4,7 +4,7 @@ const port = 3000;
 
 app. use(express.json());
 
-//First changes
+//First changes - for release 1.0
 app.get('/', (req, res) => {
     res.json({
         name: 'José Daniel Lorenzana Medina',
